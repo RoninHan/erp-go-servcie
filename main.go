@@ -23,7 +23,7 @@ func main() {
 	// 5.初始化mysql
 	initialize.InitMysqlDB()
 	// 6.初始化redis
-	initialize.InitRedis()
+	// initialize.InitRedis()
 
 	color.Cyan("go-gin服务开始了")
 	//启动gin,并配置端口,global.Settings.Port是yaml配置过的
